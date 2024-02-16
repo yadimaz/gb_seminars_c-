@@ -3,27 +3,32 @@
 
 using System;
 
-public class Answer {
+public class Answer
+{
     static void PrintEvenNumbers(int number)
     {
-      // Введите свое решение ниже
-    int num = 2;
-    while (num <= number)
+        // Введите свое решение ниже
+        int num = 2;
+        while (num <= number)
         {
             Console.Write($"{num} ");
-            num+=2;
+            num += 2;
         }
     }
 
 
-  // Не удаляйте и не меняйте метод Main! 
-    static public void Main(string[] args) {
+    // Не удаляйте и не меняйте метод Main! 
+    static public void Main(string[] args)
+    {
         int number;
 
-        if (args.Length >= 1) {
+        if (args.Length >= 1)
+        {
             number = int.Parse(args[0]);
-        } else {
-           // Здесь вы можете поменять значения для отправки кода на Выполнение
+        }
+        else
+        {
+            // Здесь вы можете поменять значения для отправки кода на Выполнение
             number = -15;
         }
 
