@@ -5,11 +5,11 @@ Console.Clear();
 
 int[] RandomArray()
 {
-    int len = new Random().Next(4,10);
+    int len = new Random().Next(4, 10);
     int[] array = new int[len];
     for (int i = 0; i < array.Length; i++)
     {
-        array[i] = new Random().Next(100,1000);
+        array[i] = new Random().Next(100, 1000);
     }
     return array;
 }
@@ -28,7 +28,7 @@ int SumEven(int[] array)
     int sum = 0;
     foreach (var item in array)
     {
-        if(item % 2 == 0) sum ++;
+        if (item % 2 == 0) sum++;
     }
     return sum;
 }

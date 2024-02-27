@@ -33,7 +33,7 @@ while (true)
     if (int.TryParse(vvod, out int onenumber))
     {
         onenumber = SumNum(onenumber);
-        if(CheckEven(onenumber)== true) break;
+        if (CheckEven(onenumber) == true) break;
     }
     else if (vvod.Length == 1 && vvod[0] == 'q') break;
 }
