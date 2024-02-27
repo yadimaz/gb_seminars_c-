@@ -30,10 +30,10 @@ while (true)
 {
     Console.Write("Введите целое число:");
     string vvod = Console.ReadLine()!;
-    if (int.TryParse(vvod, out int number))
+    if (int.TryParse(vvod, out int onenumber))
     {
-        number = SumNum(number);
-        if(CheckEven(number)== true) break;
+        onenumber = SumNum(onenumber);
+        if(CheckEven(onenumber)== true) break;
     }
     else if (vvod.Length == 1 && vvod[0] == 'q') break;
 }
