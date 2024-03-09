@@ -33,20 +33,20 @@
 
 
 
-// void Buk(string str ) 
-// {
-//     if (str == "")
-//     {
-//         return;
-//     }
-//     string list = "aoeyuiAOEYUI";
+void Buk(string str ) 
+{
+    if (str == "")
+    {
+        return;
+    }
+    string list = "aoeyuiAOEYUI";
 
-//     if (!list.Contains(str[0]))
-// {
-//     Console.Write($"{str[0]} ");
-// }
-// Buk(str[1..]);
-// }
+    if (!list.Contains(str[0]))
+{
+    Console.Write($"{str[0]} ");
+}
+Buk(str[1..]);
+}
 
 Console.Write ("Введите строку ");
 string str = Console.ReadLine()!;
